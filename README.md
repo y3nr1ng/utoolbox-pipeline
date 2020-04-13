@@ -1,5 +1,6 @@
-# uToolbox Template
-ABSTRACT
+# uToolbox [Pipeline]
+
+Prefect pipeline support for uToolbox functions.
 
 ## Installation
 TBD
