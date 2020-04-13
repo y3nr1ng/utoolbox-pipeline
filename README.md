@@ -1,6 +1,6 @@
 # uToolbox [Pipeline]
 
-Prefect pipeline support for uToolbox functions.
+A config-based pipeline support for uToolbox functions.
 
 ## Installation
 TBD
