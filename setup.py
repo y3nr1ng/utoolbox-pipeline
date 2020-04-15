@@ -44,7 +44,7 @@ setup(
     # other packages the project depends on to run
     #   install_requires -> necessity
     #   requirements.txt
-    install_requires=["pyyaml", "utoolbox-core"],
+    install_requires=["prefect", "pyyaml", "utoolbox-core"],
     # additional groups of dependencies here for the "extras" syntax
     extras_require={},
     # data files included in packages

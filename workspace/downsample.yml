@@ -1,0 +1,14 @@
+---
+  name: downsample
+  source: Y:\ARod\4F\20200317_No5_CamA
+  steps:
+    - DiscreteStepBinning:
+        bin_shape: [1, 2, 2]
+
+---
+  name: preview
+  source: Y:\ARod\4F\20200317_No5_CamA
+  steps:
+    - shit: test
+      more shit: test 2
+      more: [1, 2, 3]
