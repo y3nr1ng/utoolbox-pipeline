@@ -1,2 +1,1 @@
-from .binning import *
-from .writer import *
+from .io import *
