@@ -12,7 +12,7 @@ class ZarrWriteArray(Task):
 
         self._rechunk = rechunk
 
-    def run(self, src, dst, *args, **kwargs):
+    def run(self, src, dst, **kwargs):
         """
         Args:
             TBA
@@ -25,4 +25,4 @@ class ZarrWriteArray(Task):
             src_ = src.rechunk(src)
         else:
             src_ = src
-        return src_.to_zarr(dst, *args, **kwargs)
+        return src_.to_zarr(dst, **kwargs)
